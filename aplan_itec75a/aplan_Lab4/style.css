@@ -1,0 +1,90 @@
+body {
+font-family: 'Lato', sans-serif;
+background-color:   #FAF0E6;
+}
+.wrapper {
+padding-top: 120px;
+padding-bottom: 30px;
+}
+
+.wrapper2 {
+padding-top: 10px;
+padding-bottom: 30px;
+}
+#wrapper1{
+padding-bottom: 30px;
+}
+.card-img-top {
+box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+}
+.card-body{
+    text-align: center;
+    box-shadow: 0px 15px 15px -8px rgba(0,0,0,0.5)
+}
+.card-body h6 {
+font-size: 14px;
+text-transform: uppercase;
+color: deeppink;
+}
+.card-title {
+text-transform: uppercase;
+font-weight: bold;
+font-size: 24px;
+}
+
+@media (max-width: 800px){
+    .mx-30{
+        margin-bottom: 30px;
+    }
+}
+
+.jumbotron{
+    background-image: url(jb-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.lead{
+    color: #FAF0E6;
+    line-height: 15px;
+    text-align: center;
+}
+.cntry{
+     color: black;
+    line-height: 15px;
+    text-align: center;
+    font-size: 70px;
+    font-family: fantasy;
+}
+.leadinfo{
+    color: #FAF0E6;
+    line-height: 15px;
+    text-align: center;
+}
+.display-4{
+    color: #FAF0E6;
+    text-align: center;
+    font-size: 120px;
+    font-stretch: semi-expanded;
+    font-family: fantasy;
+}
+hr{
+    border-top: 1px solid #FAF0E6;
+}
+button{
+    width: 180px;
+    color: #FAF0E6;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+     margin: 0;
+    position: absolute;
+    top: 38%;
+    left: 50%;
+     -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
